@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    body {
+      background-image: url(aa.jpeg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark sticky-top navtop">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#">Abitha N</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars text-white"></i>
+      </button>
+      <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">Abitha</h5>
+          <button type="button" class="btn-close crossbtn" data-bs-dismiss="offcanvas" aria-label="Close"><i
+              class="fa-solid fa-xmark text-white fs-2 crossbtnshown"></i></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link text-white" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="education.html">EDUCATION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="internships.html">INTERNSHIPS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white" href="projects.html">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="certificates.html">CERTIFICATIONS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container typewr">
+    <h5 class="card-title mt-3 fs-1 intern">Projects</h5>
+  </div>
+
+
+  <!-- Projects details -->
+  <div class="container">
+    <!-- Random Quotes Generator -->
+    <div class="card block glow mt-4">
+      <div class="card-body">
+        <h3 class="text-white fw-bold">Random Quotes Generator</h3>
+        <p class="text-white">Quotes Spark is an inspiring and motivational quote generator website designed to uplift your spirit and brighten your day. With a sleek and user-friendly interface, you can easily discover and search for quotes on a wide range of topics like inspiration, love, and motivation. Whether you're seeking words of wisdom, a boost of encouragement, or a touch of joy, Quotes Spark offers a personalized experience by fetching random quotes from a vast collection every time you search. Start your day with a dose of positivity or find the perfect words to share with others.</p>
+        <a href="https://github.com/Abitha20042106/random_quotes_generator.api.git"><button
+            class="button button--anthe rightside"><span>Source code</span></button></a>
+      </div>
+      <div id="carouselExampleAutoplaying1" class="carousel" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleAutoplaying1" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1" style="padding: 5px;"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying1" data-bs-slide-to="1" aria-label="Slide 2"
+            style="padding: 5px;"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying1" data-bs-slide-to="2" aria-label="Slide 3"
+            style="padding: 5px;"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="r1.png" class="d-block w-100" alt="Game" title="Image1">
+          </div>
+          <div class="carousel-item">
+            <img src="r2.png" class="d-block w-100" alt="Game" title="Image2">
+          </div>
+          <div class="carousel-item">
+            <img src="r3.png" class="d-block w-100" alt="Game" title="Image3">
+          </div>
+        </div>
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleAutoplaying1"
+          data-bs-slide="prev">
+          <i class="fa-solid fa-angles-left iconim"></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying1"
+          data-bs-slide="next">
+          <i class="fa-solid fa-angles-right iconim"></i>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
+    </div>
+    <!-- Listing Website -->
+    <div class="card block glow mt-4">
+      <div class="card-body">
+        <h3 class="text-white fw-bold">To-do-Lists</h3>
+        <p class="text-white">The to-do list website is a simple and user-friendly tool designed to help you
+          manage tasks efficiently. Users can easily add new tasks, edit existing ones, delete tasks they no
+          longer need. The website uses local storage to save tasks, ensuring
+          they remain even after the browser is closed or refreshed. The interface is clean and intuitive,
+          making it easy to navigate and interact with your tasks. This tool is ideal for staying organized,
+          prioritizing tasks, and boosting productivity in your daily activities.</p>
+        <a href="https://github.com/Abitha20042106/PricingLandingPage.git"><button
+            class="button button--anthe rightside"><span>Source code</span></button></a>
+      </div>
+      <div id="carouselExampleAutoplaying2" class="carousel" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1" style="padding: 5px;"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide-to="1" aria-label="Slide 2"
+            style="padding: 5px;"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide-to="2" aria-label="Slide 3"
+            style="padding: 5px;"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide-to="3" aria-label="Slide 4"
+            style="padding: 5px;"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="T1.png" class="d-block w-100" alt="Game" title="Image1">
+          </div>
+          <div class="carousel-item">
+            <img src="T2.png" class="d-block w-100" alt="Game" title="Image2">
+          </div>
+          <div class="carousel-item">
+            <img src="T3.png" class="d-block w-100" alt="Game" title="Image3">
+          </div>
+          <div class="carousel-item">
+            <img src="T4.png" class="d-block w-100" alt="Game" title="Image4">
+          </div>
+        </div>
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleAutoplaying2"
+          data-bs-slide="prev">
+          <i class="fa-solid fa-angles-left iconim"></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying2"
+          data-bs-slide="next">
+          <i class="fa-solid fa-angles-right iconim"></i>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
+    </div>
+    <!-- Number Guessing Game -->
+    <div class="card block glow mt-4 mb-4">
+      <div class="card-body">
+        <h3 class="text-white fw-bold">Number Guessing Game</h3>
+        <p class="text-white">
+          The Number Guessing Game is a simple Java console application where the player
+          tries to guess a randomly generated number within a set range (e.g., 1 to 100). The game provides
+          feedback after each guess, indicating whether the guess is too high, too low, or correct. Players
+          have a limited number of attempts to guess the number, and points are awarded based on the number of
+          tries. The game can be played in multiple rounds, and a final score is displayed at the end. This
+          project is ideal for practicing basic Java concepts like loops, conditionals, and random number
+          generation.</p>
+        <a href="https://github.com/Abitha20042106/MyInternshipProjects.git"><button
+            class="button button--anthe rightside"><span>Source code</span></button></a>
+      </div>
+      <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" style="padding: 5px;" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"
+            style="padding: 5px;"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"
+            style="padding: 5px;"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="3" aria-label="Slide 4"
+            style="padding: 5px;"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="4" aria-label="Slide 5"
+            style="padding: 5px;"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="G1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="G2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="G3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="G4.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="G5.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3"
+          data-bs-slide="prev">
+          <i class="fa-solid fa-angles-left iconim"></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3"
+          data-bs-slide="next">
+          <i class="fa-solid fa-angles-right iconim"></i>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- Footer -->
+  <div class="bg-dark footertag sticky-sm-bottom sticky-md-bottom sticky-lg-bottom">
+    <footer class="mb-0 p-0">
+      <div class="nav text-white">
+        <p class="text-white linktext mt-2 p-3">Links</p>
+      </div>
+      <ul class="nav justify-content-start bnav list-unstyled">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-white"><i
+              class="fa-solid fa-location-arrow"></i>Home</a></li>
+        <li class="nav-item"><a href="education.html" class="nav-link px-2 text-white"><i
+              class="fa-solid fa-location-arrow"></i>Education</a></li>
+        <li class="nav-item"><a href="internships.html" class="nav-link px-2 text-white"><i
+              class="fa-solid fa-location-arrow"></i>Internships</a></li>
+        <li class="nav-item"><a href="projects.html" class="nav-link px-2 text-white"><i
+              class="fa-solid fa-location-arrow"></i>Projects</a></li>
+        <li class="nav-item"><a href="certificates.html" class="nav-link px-2 text-white"><i
+              class="fa-solid fa-location-arrow"></i>Certificates</a></li>
+      </ul>
+      <ul class="nav bg-dark d-flex justify-content-end iconlink fs-4  gap-3">
+        <li class="nav-item"><a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=abitharia@gmail.com"
+            class="nav-link px-2"><i class="fa-regular fa-envelope text-white"></i></a>
+        </li>
+        <li class="nav-item"><a href="https://wa.me/+918807240434" class="nav-link px-2"><i
+              class="fa-brands fa-whatsapp text-white"></i></a>
+        </li>
+        <li class="nav-item"><a href="https://www.linkedin.com/in/abitha-n-6a6396226" class="nav-link px-2"><i
+              class="fa-brands fa-linkedin-in text-white"></i></a>
+        </li>
+        <li class="nav-item"><a href="https://www.instagram.com/_abitha_n_?igsh=MTA4bmJrenhoMzJhdw=="
+            class="nav-link px-2"><i class="fa-brands fa-instagram text-white"></i></a>
+        </li>
+        <li class="nav-item"><a href="tel:+918807240434" class="nav-link px-2"><i
+              class="fa-solid fa-phone text-white"></i></a></li>
+      </ul>
+    </footer>
+  </div>
+
+
+  <!-- <script>
+  document.addEventListener('keydown', function(e) {
+    if (e.ctrlKey && (e.key === 'u' || e.key === 'U' || e.key === 'c' || e.key === 'C')) {
+      e.preventDefault();
+    }
+  }, false);
+</script>
+
+<script>
+  document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+  }, false);
+</script> -->
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
